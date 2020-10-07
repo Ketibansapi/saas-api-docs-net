@@ -1,30 +1,44 @@
-Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+![MoovazLogo_RGB](https://user-images.githubusercontent.com/42229194/92333200-fe9e0a00-f0ad-11ea-810e-c2c99a31f738.png)
 
+# Moovaz saas-api Documentation
 
-This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-image tiles (of which you can have as many or as few as you like). Makes use of some
-SVG and animation techniques I've been experimenting with on that other project of mine
-you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
+Simple saas-api documentation for user to use the api easily. Powered by reDoc.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Entity details
 
-(* = not included)
+Company entity:
+--Auth
+  -Users
+  -Partners
 
-AJ
-aj@lkn.io | @ajlkn
+## Accessable
 
+IE 10+, Chrome, Firefox, Safari
 
-Credits:
+Native browsers on - iOS 8+, Android 4.x, Windows Phone 8+
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## Demo (From reDoc github documentation)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+- Extremely easy deployment
+- [redoc-cli](https://github.com/Redocly/redoc/blob/master/cli/README.md) with ability to bundle your docs into **zero-dependency** HTML file
+- Server Side Rendering ready
+- The widest OpenAPI v2.0 features support (yes, it supports even `discriminator`) <br>
+![](docs/images/discriminator-demo.gif)
+- OpenAPI 3.0 support
+- Neat **interactive** documentation for nested objects <br>
+![](docs/images/nested-demo.gif)
+- Code samples support (via vendor extension) <br>
+![](docs/images/code-samples-demo.gif)
+- Responsive three-panel design with menu/scrolling synchronization
+- Integrate API Introduction into side menu - ReDoc takes advantage of markdown headings from OpenAPI description field. It pulls them into side menu and also supports deep linking.
+- High-level grouping in side-menu via [`x-tagGroups`](docs/redoc-vendor-extensions.md#x-tagGroups) vendor extension
+- Simple integration with `create-react-app` ([sample](https://github.com/APIs-guru/create-react-app-redoc))
+- Branding/customizations via [`theme` option](#redoc-options-object)
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## License
+
+Application is [MIT licensed](./LICENSE).
+
+## Contribute
+
+Special thanks to Redoc for the front styling API.
