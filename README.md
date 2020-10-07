@@ -4,6 +4,9 @@
 
 Simple saas-api documentation for user to use the api easily. Powered by reDoc.
 
+## Deployment
+- [Netlify](https://hungry-leavitt-04c5d9.netlify.app/)
+
 ## Entity details
 
 Company entity:
